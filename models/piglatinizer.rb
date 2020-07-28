@@ -7,7 +7,7 @@ class PigLatinizer
   end 
   
   def vowels(vowel)
-    vowel.match(/[aeiou]/)
+    vowel.match(/[aAeEiIoOuU]/)
   end 
   
   def translate_word(word)
