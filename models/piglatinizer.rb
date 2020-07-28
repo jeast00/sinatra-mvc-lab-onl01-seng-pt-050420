@@ -11,7 +11,8 @@ class PigLatinizer
   end 
   
   def translate_word(word)
-    if
+    if vowels(word[0])
+      "#{word}way"
   end 
   
 end
