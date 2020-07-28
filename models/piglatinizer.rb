@@ -7,7 +7,7 @@ class PigLatinizer
   end 
   
   def vowels(vowel)
-    vowel.match([/])
+    vowel.match(/[aeiou]/)
   end 
   
 end
