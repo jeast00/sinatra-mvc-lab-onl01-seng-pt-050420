@@ -1,7 +1,9 @@
 class PigLatinizer
   
   def piglatinize(input)
-    input.split(' ').map
+    input.split(' ').map do |word|
+      
+    end
   end 
   
   
