@@ -7,7 +7,7 @@ class PigLatinizer
   end 
   
   def vowels(vowel)
-    
+    vowel.match()
   end 
   
 end
