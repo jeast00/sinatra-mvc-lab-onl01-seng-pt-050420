@@ -6,8 +6,8 @@ class PigLatinizer
     end.join(' ')
   end 
   
-  def vowels
-  
-  
+  def vowels(vowel)
+    
+  end 
   
 end
