@@ -1,6 +1,6 @@
 class PigLatinizer
   
-  def piglatinize
+  def piglatinize(input)
     
   end 
   
