@@ -15,9 +15,9 @@ class PigLatinizer
       "#{word}way"
     else
       v_index = word.index(/[aAeEiIoOuU]/)
-      consonants = word.slice(0..v_index-1)
+      cons = word.slice(0..v_index-1)
       sliced_word = word.slice(v_index..word.length)
-      sliced_word + consonants + "ay"
+      sliced_word + cons + "ay"
     end 
   end 
   
